@@ -1,0 +1,30 @@
+---
+import { hero } from '../data.js'
+
+interface Props {
+	title?: string
+}
+
+const { title = hero.title } = Astro.props
+---
+
+<section class="hero">
+	<h1>{title}</h1>
+</section>
+
+<style>
+	.hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		padding: 2rem;
+	}
+
+	h1 {
+		font-family: var(--ff-2);
+		font-size: var(--fs-xxxl);
+		font-weight: var(--fw-b);
+		text-align: center;
+	}
+</style>
