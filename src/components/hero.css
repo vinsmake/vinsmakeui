@@ -2,15 +2,15 @@
   text-align: center;
   min-height: 100vh;
   h1 {
-    font-family: var(--ff-b);
+    font-family: var(--ff-branding);
   }
   h2 {
-    font-family: var(--ff-h);
+    font-family: var(--ff-heading);
   }
   p {
-    font-family: var(--ff-t);
+    font-family: var(--ff-text);
   }
   span {
-    font-family: var(--ff-b);
+    font-family: var(--ff-branding);
   }
 }
