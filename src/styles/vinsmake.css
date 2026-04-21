@@ -17,18 +17,14 @@
 \*-----------------------------------*/
 
 /* fonts are declared via Astro's fonts API (see astro.config.mjs)
-   and injected with <Font cssVariable="--ff-nixie" /> in the layout */
+   and injected with <Font cssVariable="..." /> in the layout */
 
 :root {
 
-    /* font family */
-    --ff-1: var(--ff-nixie), sans-serif;
-    --ff-2: var(--ff-nixie), sans-serif;
-
     /* font weight */
-    --fw-l: light;
-    --fw-n: normal;
-    --fw-b: bold;
+    --fw-l: 300;
+    --fw-n: 400;
+    --fw-b: 700;
 
     /* font size */
     --fs-xxs: 1.4rem;
@@ -144,7 +140,7 @@ html {
 body {
     background: var(--c-background);
     color: var(--c-text);
-    font-family: var(--ff-1);
+    font-family: var(--ff-t);
     font-weight: var(--fw-n);
     font-size: var(--fs-text);
     overflow-x: hidden;

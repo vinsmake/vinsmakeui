@@ -1,5 +1,5 @@
 ---
-import 'modern-normalize/modern-normalize.css'
+import '../styles/normalize.css'
 import '../styles/vinsmake.css'
 import { Font } from 'astro:assets'
 import { site } from '../data.js'
@@ -23,7 +23,9 @@ const { title = site.title, description = site.description, lang = site.lang, au
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<meta name="author" content={author} />
-		<Font cssVariable="--ff-nixie" preload />
+		<Font cssVariable="--ff-b" preload />
+		<Font cssVariable="--ff-t" preload />
+		<Font cssVariable="--ff-h" preload/>
 		<title>{title}</title>
 	</head>
 	<body>

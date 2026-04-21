@@ -1,0 +1,16 @@
+.hero {
+  text-align: center;
+  min-height: 100vh;
+  h1 {
+    font-family: var(--ff-b);
+  }
+  h2 {
+    font-family: var(--ff-h);
+  }
+  p {
+    font-family: var(--ff-t);
+  }
+  span {
+    font-family: var(--ff-b);
+  }
+}
