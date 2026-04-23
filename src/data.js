@@ -13,6 +13,7 @@ export const site = {
 	author: 'Vinsmake',
 }
 
+/* Website data */
 export const hero = {
 	branding: 'Este es un ejemplo de la tipografia de BRANDING',
 	heading: 'Este es un ejemplo de la tipografia de HEADING',
