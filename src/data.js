@@ -1,3 +1,9 @@
+import logoUrl from './branding/logo.svg?url'
+export const branding = {
+	brand: 'Primer Espresso',
+	logo: logoUrl
+}
+
 export const site = {
 	heading: 'Vinsmake',
 	description: 'Vinsmake — portfolio & studio',

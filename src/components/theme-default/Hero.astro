@@ -1,5 +1,5 @@
 ---
-import { hero } from '../../data.js'
+import { hero, branding as brandingData } from '../../data.js'
 import './hero.css'
 
 interface Props {
@@ -13,6 +13,7 @@ const { branding = hero.branding, text = hero.text, heading = hero.heading, ui =
 ---
 
 <section class="hero">
+	<img class="hero__logo" src={brandingData.logo} alt={brandingData.brand} />
 	<h1>{branding}</h1>
 	<h2>{heading}</h2>
 	<p>{text}</p>

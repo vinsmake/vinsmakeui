@@ -1,6 +1,12 @@
 .hero {
   text-align: center;
   min-height: 100vh;
+  .hero__logo {
+    display: block;
+    margin: 0 auto;
+    width: 12rem;
+    height: auto;
+  }
   h1 {
     font-family: var(--ff-branding);
   }
