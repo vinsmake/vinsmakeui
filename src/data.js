@@ -1,19 +1,21 @@
+/* Branding data */
 import logoUrl from './branding/logo.svg?url'
 export const branding = {
 	brand: 'Primer Espresso',
 	logo: logoUrl
 }
 
+/* HTML data */
 export const site = {
-	heading: 'Vinsmake',
+	title: 'Vinsmake',
 	description: 'Vinsmake — portfolio & studio',
 	lang: 'en',
 	author: 'Vinsmake',
 }
 
 export const hero = {
-	branding: 'Primer Espresso',
-	heading: 'heading Vinsmake',
-	text: 'Text Vinsmake',
-	ui: 'UI Vinsmake'
+	branding: 'Este es un ejemplo de la tipografia de BRANDING',
+	heading: 'Este es un ejemplo de la tipografia de HEADING',
+	text: 'Este es un ejemplo de la tipografia del TEXT',
+	ui: 'Este es un ejemplo de la tipografia de UI'
 }
